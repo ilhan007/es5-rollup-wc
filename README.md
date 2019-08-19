@@ -18,7 +18,11 @@ Two additional scripts are loaded, compared to [rollup-wc/index.html](https://gi
 <body>
 	<ui5-button>Hello World</ui5-button>
 	<ui5-textarea placeholder="Type some text" show-exceeded-text></ui5-textarea>
-	<ui5-datepicker ></ui5-datepicker>
+	<ui5-select style="width: 180px">
+		<ui5-option>Compact</ui5-option>
+		<ui5-option>Cozy</ui5-option>
+		<ui5-option>Condensed</ui5-option>
+	</ui5-select>
 
 	<!-- ES6 bundle -->
 	<script src="./dist/bundle.esm.js" type="module"></script>
